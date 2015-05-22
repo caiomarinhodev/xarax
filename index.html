@@ -49,13 +49,19 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#about">About</a>
+                        <a href="#">Quem Somos</a>
                     </li>
                     <li>
-                        <a href="#services">Services</a>
+                        <a href="#">Projeto</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a href="#">Mural</a>
+                    </li>
+                    <li>
+                        <a href="#">Game</a>
+                    </li>
+                    <li>
+                        <a href="#">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -234,10 +240,10 @@
                 console.log("This is mobile device!");
                 $(window).load(function() {
                     var i =0;
-                    var images = ['img/amata_c.png','img/54bis_c.png','img/auroraeco_c.png','img/mata_c.png', 'img/camaleao_c.png'];
+                    var images = ['img/troncos_c.png','img/54bis_c.png','img/mata_c.png', 'img/rio_c.png'];
                     var image = $('.intro-header');
                     //Initial Background image setup
-                    image.css('background', 'url(img/camaleao_c.png)');
+                    image.css('background', 'url(img/rio_c.png)');
                     //Change image at regular intervals
                     setInterval(function(){
                         image.fadeOut(1000, function () {
@@ -252,7 +258,7 @@
                 console.log("Isn't mobile device!");
                 $(window).load(function() {
                     var i =0;
-                    var images = ['img/amata.png','img/54bis.png','img/auroraeco.png','img/mata.png', 'img/camaleao.png'];
+                    var images = ['img/amata.png','img/54bis.png','img/auroraeco.png','img/mata.png','img/rio.png', 'img/troncos.png', 'img/camaleao.png'];
                     var image = $('.intro-header');
                     //Initial Background image setup
                     image.css('background', 'url(img/camaleao.png)');
@@ -264,7 +270,7 @@
                         });
                         if(i == images.length)
                             i = 0;
-                    }, 7000);
+                    }, 10000);
                 });
             }
 
