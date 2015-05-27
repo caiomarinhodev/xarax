@@ -121,7 +121,7 @@ h6 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../img/Thumbs.db) no-repeat center center;
+    background: url(../img/camaleao.png) no-repeat center center;
     background-size: cover;
 }
 
@@ -139,6 +139,25 @@ h6 {
     float: right;
     margin-top: 0;
 }
+
+.bannerb {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background-color: #e1e1e1;
+    background-size: cover;
+}
+
+.bannerb h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.bannerb ul {
+    margin-bottom: 0;
+}
+
+
 
 @media(max-width:1199px) {
     ul.banner-social-buttons {
@@ -236,10 +255,6 @@ h6 {
     height: 100px;
     margin-top: -7px;
     padding-top: 7px;
-    border-left: 6px solid #5CB85C !important;
-    border-right: 6px solid #5CB85C !important;
-    border-top: 3px solid #5CB85C !important;
-    border-bottom: 3px solid #5CB85C !important;
     vertical-align: central;
 }
 
